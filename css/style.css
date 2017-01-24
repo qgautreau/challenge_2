@@ -50,6 +50,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 /* Header */
 header {
     padding: 50px 50px 0 50px;
@@ -58,6 +62,7 @@ header {
 
 header img {
     padding: 0.2em 0.5em;
+    margin-top: 1.5em;
     border-bottom: 1px solid #F0F0F0;
     width: 34px;
     height: 22px;
@@ -85,7 +90,7 @@ header nav {
 }
 
 
-/*Main*/
+/* Main */
 
 main {
     padding: 33px 50px 0 50px;
@@ -103,7 +108,7 @@ section h2+p {
 
 section h2+p {
     color: #aaaaaa;
-    
+
 }
 
 main section article {
@@ -114,7 +119,7 @@ article p:not(:last-child) {
     margin-bottom: 30px;
 }
 
-/*footer*/
+/* Footer */
 
 footer {
     padding: 30px 50px 50px 50px;

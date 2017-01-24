@@ -10,9 +10,9 @@ Fonts :
 Toutes les autres "Helvetica Neue", 13px
 
 Couleurs :
-Gris foncé : #505050
-Gris clair : #606060
-Gris très clair : #A6A6A6
+Gris foncé : #505050 
+Gris clair : #606060 // F0F0F0
+Gris très clair : #A6A6A6 // #FAFAFA
 
 Fond d'écran :
 - L'image à utiliser est bg.jpg dans les éléments.
