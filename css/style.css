@@ -183,3 +183,11 @@ footer article h2 {
     font-size: 18px;
     font-weight: bold;
 }
+
+footer article li {
+    font-size: 13px;
+}
+
+footer article li a {
+    font-family: "Helvetica";
+}
