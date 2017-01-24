@@ -2,11 +2,91 @@ body {
     background-image: url('../images/bg.png');
 }
 
+#container {
+    margin: auto;
+    width: 994px;
+    box-shadow: 0 0  5px #505050;
+}
+
+header,
+main,
+footer {
+    padding: 50px 50px 0 50px;
+    width: 994px;
+    background-color: white;
+}
+
 header {
+    margin-top: 2em;
+}
 
-
+footer {
+    margin-bottom: 2em;
 }
 
 ul {
-    list-style: none;
+    list-style-type: none;
+}
+
+/* Fonts */
+h1,
+h2,
+a,
+p {
+    color: #545454;
+}
+
+h1,
+h2 {
+    font-family: "Terminal Dosis";
+}
+
+h1 {
+    font-size: 52px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+p,
+a {
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+header {
+}
+
+header img {
+    padding: 0.2em 0.5em;
+    border-bottom: 1px solid #F0F0F0;
+    width: 34px;
+    height: 22px;
+    background-color: #FAFAFA;
+    float: right;
+}
+
+header p {
+    margin-top: 1em;
+}
+
+header li {
+    display: inline;
+    margin-right: 2em;
+}
+
+header nav {
+    padding: 1.3em;
+    margin-top: 25px;
+    border-top: 1px solid #F0F0F0;
+    border-bottom: 1px solid #F0F0F0;
+    background-color: #FAFAFA;
+    height: 59px;
+    text-align: center;
 }
